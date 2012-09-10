@@ -267,7 +267,7 @@ namespace MoveOverEmpty
             Color cs, ce;
             switch (tse)
             {
-                case TileStateEnum.Empty: cs = Colors.LightGoldenrodYellow; ce = Colors.Yellow; break;
+                case TileStateEnum.Empty: cs = Colors.LightGoldenrodYellow; ce = Colors.SandyBrown; break;
                 case TileStateEnum.Blocked: cs = Colors.White; ce = Colors.White;  break;
                 case TileStateEnum.Picked: cs = Colors.Red; ce = Colors.Black; break;
                 default: //case TileStateEnum.Filled:
